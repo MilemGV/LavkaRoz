@@ -1,5 +1,42 @@
+/*Постоянные классы*/
 .container{
-    max-width: 1200px;
+    max-width: 1192px;
     padding: 0 10px;
     margin: 0 auto;
+}
+
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+/*Основная верстка*/
+
+/*Header*/
+/*Header banner*/
+.header__banner{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FF8642;
+}
+.header__banner-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+}
+.header__banner-title{
+    font-size: 16px;
+    color: #fff;
+    line-height: 22px;
+    margin: 0 auto;
+}
+.header__banner-close{
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
 }
