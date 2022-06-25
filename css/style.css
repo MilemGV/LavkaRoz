@@ -5,6 +5,10 @@
     margin: 0 auto;
 }
 
+.body{
+    font-weight: 400;
+}
+
 .hidden{
     display: none;
 }
@@ -17,10 +21,7 @@
 /*Header*/
 /*Header banner*/
 .header__banner{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+  
     background-color: #FF8642;
 }
 .header__banner-inner{
@@ -39,4 +40,62 @@
     cursor: pointer;
     color: #fff;
     font-size: 16px;
+}
+
+/*header-menu*/
+.header__menu{
+    background-color: #F2F3F5;
+}
+.menu__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.menu__time{
+    display: flex;
+    align-items: center;
+}
+.menu__time-work{
+    margin-left: 12px;
+}
+.menu__time-work span{
+    font-size: 14px;
+    line-height: 20px;
+}
+.menu__list{
+    display: flex;
+}
+.menu__list-item + .menu__list-item{
+    margin-left: 15px;
+}
+.menu__list-icon{
+    margin-left: 10px;
+}
+.menu__list-link{
+    font-size: 14px;
+    line-height: 20px;
+    color: #505567;
+}
+.menu__list-link:hover{
+    color: #0093A2;
+    transition: all .3s;
+}
+.menu__social{
+    display: flex;
+    align-items: center;
+}
+.menu__social-link + .menu__social-link{
+    margin-left: 21px;
+}
+.menu__social-link img:hover{
+    fill: #0093A2;
+}
+.menu__profil-orders{
+    color: inherit;
+    display: flex;
+    align-items: center;
+}
+.menu__profil-icon{
+    margin-right: 16px;
 }
