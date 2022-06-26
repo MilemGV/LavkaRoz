@@ -91,9 +91,6 @@
 .menu__social-link + .menu__social-link{
     margin-left: 21px;
 }
-.menu__social-link img:hover{
-    fill: #0093A2;
-}
 .menu__profil-orders{
     color: inherit;
     display: flex;
@@ -122,5 +119,28 @@
 }
 .menu__list-close{
     transform: rotate(180deg);
-    transition: transform .2s cubic-bezier(1,1,0,0);
+    transition: transform .2s cubic-bezier(0,0,1,1);
+}
+
+/*Header bottom*/
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.header__bottom-search{
+    border: none;
+    border: 1px solid #D0D2D7;
+    border-radius: 60px;
+    width: 375px;
+    padding: 11px 0px 11px 20px;
+    
+}
+.header__bottom-form{
+    position: relative;
+}
+.header__bottom-search-img{
+    position: absolute;
+    right: 20px;
+    top: 10px;
 }

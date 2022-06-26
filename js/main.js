@@ -18,9 +18,12 @@ window.addEventListener('DOMContentLoaded', () => {
 
     function openMenuLink(){
         subMenu.classList.toggle('hidden');
-
-        menuIcon.classList.toggle('menu__list-open');
     };
     
     menuLinkOpen.addEventListener('click', openMenuLink);
+    window.addEventListener('click', (e) => {
+        if(e.target.classList.contains('sub-menu__list')){
+            console.log('1');
+        }
+    })
 });
